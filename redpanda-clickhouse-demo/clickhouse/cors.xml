@@ -1,0 +1,16 @@
+<clickhouse>
+  <http_server_default_response_headers>
+    <header>
+      <name>Access-Control-Allow-Origin</name>
+      <value>*</value>
+    </header>
+    <header>
+      <name>Access-Control-Allow-Methods</name>
+      <value>GET, POST, OPTIONS</value>
+    </header>
+    <header>
+      <name>Access-Control-Allow-Headers</name>
+      <value>Origin, X-Requested-With, Content-Type, Accept, Authorization</value>
+    </header>
+  </http_server_default_response_headers>
+</clickhouse>
